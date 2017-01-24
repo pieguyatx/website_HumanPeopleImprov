@@ -1,5 +1,5 @@
 body {
-  position: relative; 
+  position: relative;
 }
 
 /* Navbar settings below here*/
@@ -30,7 +30,7 @@ div #siteName{
 
 .mainSection {
   padding:40px 70px 40px 70px;
-  color: #02b7ca; 
+  color: #02b7ca;
 }
 #about {
   background-color: #60006a;
@@ -42,7 +42,7 @@ div #siteName{
   background-color: #364913;
 }
 #copyright {
-  color: #ffcc00; 
+  color: #ffcc00;
   font-size: small;
   background-color: black;
   text-align: center;
@@ -53,7 +53,7 @@ div #siteName{
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;
-  border-color: white; 
+  border-color: white;
 }
 
 div #title {
@@ -99,11 +99,11 @@ div#social p a{
   .mainSection {
   padding:15px 30px 15px 30px;
   }
-  div h1, h2, h3, h4, h5, h6, #title {
-    font-size: 1.2em;
+  div h1, h2, h3, h4, h5, h6 {
+    font-size: 1.1em;
   }
-  div #title{
-    font-size: 1em;
+  div #siteName{
+    font-size: 1.1em;
   }
   #copyright {
     font-size: 0.9em;
@@ -167,4 +167,3 @@ div#social p a{
 .btn-vimeo:active,.btn-vimeo.active,.open>.dropdown-toggle.btn-vimeo{background-image:none}
 .btn-vimeo.disabled:hover,.btn-vimeo[disabled]:hover,fieldset[disabled] .btn-vimeo:hover,.btn-vimeo.disabled:focus,.btn-vimeo[disabled]:focus,fieldset[disabled] .btn-vimeo:focus,.btn-vimeo.disabled.focus,.btn-vimeo[disabled].focus,fieldset[disabled] .btn-vimeo.focus{background-color:#1ab7ea;border-color:rgba(0,0,0,0.2)}
 .btn-vimeo .badge{color:#1ab7ea;background-color:#fff}
-
