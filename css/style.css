@@ -33,8 +33,10 @@ div #siteName{
   color: #02b7ca;
 }
 #title {
-  font-family: 'Rock Salt', cursive;
-  font-size: 5em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 7em;
+  line-height: 0.7em;
+  padding-bottom: 0.3em;
 }
 #subtitle {
   font-size: 2em;
@@ -45,15 +47,24 @@ div #siteName{
   padding: 0;
 }
 
-
 .mainSection {
   padding:40px 70px 40px 70px;
   color: #02b7ca;
 }
-.margins{
-  background-color: #411659;
+.photoCredit{
+  background: rgba(0,0,0,.5);
+  color: white;
+  font-family: "Assistant", sans-serif;
+  font-size: smaller;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 10px 0 10px;
 }
 
+.marginsAbout{
+  background-color: #411659;
+}
 #about {
   background-color: #60006a;
 }
@@ -68,7 +79,22 @@ div #siteName{
 #aboutText {
   background-color: #60006a;
 }
+#people div div{
+  margin: 0 20px 20px 20px;
+}
+#people div div div p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-weight: bold;
+  background: rgba(0,0,0,.5);
+  padding: 5px;
+}
 
+.marginsShows{
+  background-color: #441e14;
+}
 #shows {
   background-color: #600000;
 }
@@ -92,16 +118,7 @@ p, div {
 }
 div p {
   font-size: 1.5em;
-  margin: 10px 0 20px 0;
-}
-div #professionalSkills{
-  font-size: 2em;
-  margin: 1em 0 0 0;
-  text-align: center;
-}
-div#links p {
-  font-size: 1.2em;
-  margin: -20px 0 25px 0 ;
+  padding: 10px 0 20px 0;
 }
 div#social p a{
   margin-bottom: 4px;
@@ -119,11 +136,17 @@ div#social p a{
   div h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
   }
+  div p {
+    font-size: 1.1em;
+  }
   div #siteName{
     font-size: 1.1em;
   }
+  #people div div div p{
+    font-size: 2em;
+  }
   #copyright {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 
