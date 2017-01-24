@@ -1,14 +1,21 @@
 // fade top title until needed
 // http://stackoverflow.com/questions/13436455/only-showing-div-when-passed-scroll-position-issue
 $(function(){
-    $(window).scroll(function() { 
-        if ($(this).scrollTop() > 10) { 
-            $("#siteName:hidden").css('visibility','visible');   
-            $("#siteName:hidden").fadeIn('fast');  
-        } 
-        else {     
-            $("#siteName:visible").fadeOut("fast"); 
-        }  
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 10) {
+            $("#siteName:hidden").css('visibility','visible');
+            $("#siteName:hidden").fadeIn('fast');
+        }
+        else {
+            $("#siteName:visible").fadeOut("fast");
+        }
+        if ($(this).scrollTop() > 100) {
+            $("#aboutCaption:hidden").css('visibility','visible');
+            $("#aboutCaption:hidden").fadeIn('slow');
+        }
+        else {
+            $("#aboutCaption:visible").fadeOut("slow");
+        }
     });
 });
 

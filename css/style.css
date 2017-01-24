@@ -28,13 +28,47 @@ div #siteName{
 }
 /* Navbar settings above here */
 
+#titleBlock {
+  background-color: #60006a;
+  color: #02b7ca;
+}
+#title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 5em;
+}
+#subtitle {
+  font-size: 2em;
+  color: #ffcc00;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+
 .mainSection {
   padding:40px 70px 40px 70px;
   color: #02b7ca;
 }
+.margins{
+  background-color: #411659;
+}
+
 #about {
   background-color: #60006a;
 }
+#aboutCaption {
+  background-color: #60006a;
+  color: #02b7ca;
+  position: absolute;
+  bottom: 3em;
+  width: 85%;
+  visibility: hidden;
+}
+#aboutText {
+  background-color: #60006a;
+}
+
 #shows {
   background-color: #600000;
 }
@@ -44,21 +78,12 @@ div #siteName{
 #copyright {
   color: #ffcc00;
   font-size: small;
-  background-color: black;
+  font-family: "Assistant", sans-serif;
+  background-color: #60006a;
   text-align: center;
   padding:3px;
 }
 
-#imgProfile {
-  border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
-}
-
-div #title {
-  font-family: 'Rock Salt', cursive;
-}
 div h1, h2, h3, h4, h5, h6 {
   font-family: 'Special Elite', sans-serif;
 }
@@ -82,25 +107,17 @@ div#social p a{
   margin-bottom: 4px;
 }
 
-@media screen and (max-width: 1360px) {
-  #imgProfile{
-    max-height: 350px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  div p {
-    font-size: 1.3em;
-  }
-  div #professionalSkills{
-    font-size: 1.5em;
-  }
-}
+
 @media screen and (max-width: 766px) {
+  body .navbar{
+    background: rgba(0,0,0,0.5);
+    border: 0;
+  }
   .mainSection {
   padding:15px 30px 15px 30px;
   }
   div h1, h2, h3, h4, h5, h6 {
-    font-size: 1.1em;
+    font-size: 1.5em;
   }
   div #siteName{
     font-size: 1.1em;
