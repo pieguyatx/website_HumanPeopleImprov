@@ -98,9 +98,13 @@ div #siteName{
 #shows {
   background-color: #600000;
 }
+.marginsContact{
+  background-color: #1e290a;
+}
 #contact {
   background-color: #364913;
 }
+
 #copyright {
   color: #ffcc00;
   font-size: small;
