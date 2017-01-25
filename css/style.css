@@ -61,6 +61,10 @@ div #siteName{
   right: 0;
   padding: 0 10px 0 10px;
 }
+.photoCredit a{
+  decoration: none;
+  color: white;
+}
 
 .marginsAbout{
   background-color: #411659;
@@ -85,11 +89,12 @@ div #siteName{
 #people div div div p{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   text-align: center;
   font-weight: bold;
   background: rgba(0,0,0,.5);
   padding: 2px 5px 2px 5px;
+  font-family: 'Special Elite', serif;
 }
 
 .marginsShows{
@@ -114,18 +119,15 @@ div #siteName{
   padding:3px;
 }
 
-div h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', sans-serif;
+div, div h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', serif;
 }
-p, div {
-  font-family: 'Special Elite', sans-serif;
+p {
+  font-family: 'Assistant', sans-serif;
 }
 div p {
   font-size: 1.5em;
   padding: 10px 0 20px 0;
-}
-div#social p a{
-  margin-bottom: 4px;
 }
 
 
