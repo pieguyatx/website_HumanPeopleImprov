@@ -83,6 +83,9 @@ div #siteName{
   width: 85%;
   visibility: hidden;
 }
+#aboutCaption h1{
+  margin: 0.3em 0.1em 0.1em 0.1em;
+}
 #aboutText {
   background-color: #60006a;
 }
@@ -225,7 +228,7 @@ div p {
   opacity: 0;
 }
 /*other cats */
-#people, #contact p, #contact h1, #aboutText p{
+#shows div div, #people, #contact p, #contact h1, #aboutText p{
   position: relative;
   z-index: 2;
 }
@@ -261,7 +264,19 @@ div p {
   z-index: 1;
   opacity: 0;
 }
-
+#cat4{
+  right: -30px;
+  bottom: -135px;
+  width: 305px;
+  z-index: 1;
+}
+#cat4b{
+  right: -17px;
+  bottom: -13px;
+  width: 291px;
+  z-index: 1;
+  opacity: 0;
+}
 
 /* https://lipis.github.io/bootstrap-social/
  * Social Buttons for Bootstrap

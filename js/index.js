@@ -68,3 +68,10 @@ $("#cat3").hover(
     $("#cat3b").css("opacity",1);
   }
 );
+$("#cat4").hover(
+  function() {
+    $(this).addClass("cat-fadeOut");
+    $("#cat4b").addClass("cat-fadeIn");
+    $("#cat4b").css("opacity",1);
+  }
+);
