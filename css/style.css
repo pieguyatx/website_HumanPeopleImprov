@@ -30,17 +30,20 @@ div #siteName{
 
 #titleBlock {
   background-color: #60006a;
-  color: #02b7ca;
 }
 #title {
   font-family: 'Amatic SC', cursive;
   font-size: 7em;
   line-height: 0.7em;
-  padding-bottom: 0.3em;
+  padding: 0 50px 0.3em 50px;
+  position: relative;
+  z-index: 1;
 }
 #subtitle {
   font-size: 2em;
   color: #ffcc00;
+  position: relative;
+  z-index: 1;
 }
 
 .no-padding {
@@ -161,11 +164,6 @@ div p {
 }
 
 /* cat motif */
-#titleBlock{
-  background-image: url("../img/Elegant-Cat-Silhouette.svg");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-}
 .cat{
   user-drag: none;
   user-select: none;
@@ -179,6 +177,53 @@ div p {
   margin: 0;
   position: relative;
 }
+/* title block cat */
+#cat1{
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  width: 300px;
+  z-index: 0;
+}
+@-webkit-keyframes bgChange{
+  from {
+    background-image: url("../img/Elegant-Cat-Silhouette.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  to {
+    background-image: url("../img/cat-run.svg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+}
+@-moz-keyframes bgChange{
+  from {
+    background-image: url("../img/Elegant-Cat-Silhouette.svg");
+    background-position: right bottom;
+  }
+  to {
+    background-image: url("../img/cat-run.svg");
+    background-position: left bottom;
+  }
+}
+@keyframes bgChange{
+  from {
+    background-image: url("../img/Elegant-Cat-Silhouette.svg");
+    background-position: right bottom;
+  }
+  100% {
+    background-image: url("../img/cat-run.svg");
+    background-position: left bottom;
+    font-weight: bolder;
+  }
+}
+#titleBlock:hover{
+  -webkit-animation:bgChange ease-in 0.5;
+  -moz-animation:bgChange ease-in 0.5;
+  animation:bgChange ease-in 0.5;
+}
+/*other cats */
 #cat3{
   position: absolute;
   right: 0;
