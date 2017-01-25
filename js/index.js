@@ -46,9 +46,18 @@ $("#menu li>a").on('click', function(event) {
 
 });
 
-// Cat transitions for title block
+// Cat transitions
 $("#cat1").hover(
   function() {
-    $( this ).addClass("cat-fadeOut");
+    $(this).addClass("cat-fadeOut");
+    $("#cat1b").addClass("cat-fadeIn");
+    $("#cat1b").css("opacity",1);
+  }
+);
+$("#cat3").hover(
+  function() {
+    $(this).addClass("cat-fadeOut");
+    $("#cat3b").addClass("cat-fadeIn");
+    $("#cat3b").css("opacity",1);
   }
 );
