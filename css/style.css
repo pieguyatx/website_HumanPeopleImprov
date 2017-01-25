@@ -221,7 +221,7 @@ div p {
   z-index: 0;
 }
 #cat1b{
-  left: 50px;
+  left: 40px;
   bottom: 0;
   width: 320px;
   z-index: 0;
@@ -265,13 +265,13 @@ div p {
   opacity: 0;
 }
 #cat4{
-  right: -30px;
+  right: 0px;
   bottom: -135px;
   width: 305px;
   z-index: 1;
 }
 #cat4b{
-  right: -17px;
+  right: 0px;
   bottom: -13px;
   width: 291px;
   z-index: 1;
