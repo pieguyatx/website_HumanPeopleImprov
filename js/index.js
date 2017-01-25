@@ -45,3 +45,10 @@ $("#menu li>a").on('click', function(event) {
   } // End if
 
 });
+
+// Cat transitions for title block
+$("#cat1").hover(
+  function() {
+    $( this ).addClass("cat-fadeOut");
+  }
+);

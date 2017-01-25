@@ -177,6 +177,21 @@ div p {
   margin: 0;
   position: relative;
 }
+@-webkit-keyframes fadeOut{
+  from {opacity: 1} to {opacity: 0;}
+}
+@-moz-keyframes fadeOut{
+  from {opacity: 1} to {opacity: 0;}
+}
+@keyframes fadeOut{
+  from {opacity: 1} to {opacity: 0;}
+}
+.cat-fadeOut{
+  -webkit-animation:fadeOut 0.5s;
+  -moz-animation:fadeOut 0.5s;
+  animation:fadeOut 0.5s;
+  opacity: 0;
+}
 /* title block cat */
 #cat1{
   position: absolute;
@@ -184,44 +199,6 @@ div p {
   bottom: -4px;
   width: 300px;
   z-index: 0;
-}
-@-webkit-keyframes bgChange{
-  from {
-    background-image: url("../img/Elegant-Cat-Silhouette.svg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-  to {
-    background-image: url("../img/cat-run.svg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-  }
-}
-@-moz-keyframes bgChange{
-  from {
-    background-image: url("../img/Elegant-Cat-Silhouette.svg");
-    background-position: right bottom;
-  }
-  to {
-    background-image: url("../img/cat-run.svg");
-    background-position: left bottom;
-  }
-}
-@keyframes bgChange{
-  from {
-    background-image: url("../img/Elegant-Cat-Silhouette.svg");
-    background-position: right bottom;
-  }
-  100% {
-    background-image: url("../img/cat-run.svg");
-    background-position: left bottom;
-    font-weight: bolder;
-  }
-}
-#titleBlock:hover{
-  -webkit-animation:bgChange ease-in 0.5;
-  -moz-animation:bgChange ease-in 0.5;
-  animation:bgChange ease-in 0.5;
 }
 /*other cats */
 #cat3{
