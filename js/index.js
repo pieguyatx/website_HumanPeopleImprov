@@ -54,6 +54,13 @@ $("#cat1").hover(
     $("#cat1b").css("opacity",1);
   }
 );
+$("#cat2").hover(
+  function() {
+    $(this).addClass("cat-fadeOut");
+    $("#cat2b").addClass("cat-fadeIn");
+    $("#cat2b").css("opacity",1);
+  }
+);
 $("#cat3").hover(
   function() {
     $(this).addClass("cat-fadeOut");

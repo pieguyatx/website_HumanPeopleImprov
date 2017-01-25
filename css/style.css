@@ -225,6 +225,23 @@ div p {
   opacity: 0;
 }
 /*other cats */
+#people, #contact p, #contact h1, #aboutText p{
+  position: relative;
+  z-index: 2;
+}
+#cat2{
+  bottom: -5px;
+  left: -50px;
+  width: 250px;
+  z-index: 0;
+}
+#cat2b{
+  bottom: -10px;
+  left: -50;
+  width: 300px;
+  z-index: 0;
+  opacity: 0;
+}
 #cat3{
   right: 0;
   bottom: -40px;
