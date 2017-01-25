@@ -137,8 +137,11 @@ div p {
     background: rgba(0,0,0,0.5);
     border: 0;
   }
+  #titleBlock {
+    padding-top: 60px;
+  }
   .mainSection {
-  padding:15px 30px 15px 30px;
+    padding:15px 30px 15px 30px;
   }
   div h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
