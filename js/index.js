@@ -75,3 +75,13 @@ $("#cat4").hover(
     $("#cat4b").css("opacity",1);
   }
 );
+
+// Profile hover changes
+$("#carolyn").hover(
+  function() {
+    $(this).attr("src","img/profile/carolyn1.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/carolyn2.jpg");
+    })
+  }
+);
