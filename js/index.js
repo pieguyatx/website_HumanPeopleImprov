@@ -77,11 +77,67 @@ $("#cat4").hover(
 );
 
 // Profile hover changes
+$("#amy").hover(
+  function() {
+    $(this).attr("src","img/profile/amy2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/amy1.jpg");
+    })
+  }
+);
 $("#carolyn").hover(
   function() {
-    $(this).attr("src","img/profile/carolyn1.jpg");
+    $(this).attr("src","img/profile/carolyn2.jpg");
     $(this).mouseleave(function() {
-      $(this).attr("src","img/profile/carolyn2.jpg");
+      $(this).attr("src","img/profile/carolyn1.jpg");
+    })
+  }
+);
+$("#david").hover(
+  function() {
+    $(this).attr("src","img/profile/david2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/david1.jpg");
+    })
+  }
+);
+$("#eric").hover(
+  function() {
+    $(this).attr("src","img/profile/eric2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/eric1.jpg");
+    })
+  }
+);
+$("#greg").hover(
+  function() {
+    $(this).attr("src","img/profile/greg2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/greg1.jpg");
+    })
+  }
+);
+$("#mary").hover(
+  function() {
+    $(this).attr("src","img/profile/mary2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/mary1.jpg");
+    })
+  }
+);
+$("#pius").hover(
+  function() {
+    $(this).attr("src","img/profile/pius2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/pius1.jpg");
+    })
+  }
+);
+$("#sheri").hover(
+  function() {
+    $(this).attr("src","img/profile/sheri2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/sheri1.jpg");
     })
   }
 );
