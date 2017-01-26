@@ -85,11 +85,27 @@ $("#amy").hover(
     })
   }
 );
+$("#bloom").hover(
+  function() {
+    $(this).attr("src","img/profile/bloom2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/bloom1.jpg");
+    })
+  }
+);
 $("#carolyn").hover(
   function() {
     $(this).attr("src","img/profile/carolyn2.jpg");
     $(this).mouseleave(function() {
       $(this).attr("src","img/profile/carolyn1.jpg");
+    })
+  }
+);
+$("#chris").hover(
+  function() {
+    $(this).attr("src","img/profile/chris2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/chris1.jpg");
     })
   }
 );
@@ -117,6 +133,22 @@ $("#greg").hover(
     })
   }
 );
+$("#kay").hover(
+  function() {
+    $(this).attr("src","http://placekitten.com/g/401/401/");
+    $(this).mouseleave(function() {
+      $(this).attr("src","http://placekitten.com/g/400/400/");
+    })
+  }
+);
+$("#kraab").hover(
+  function() {
+    $(this).attr("src","img/profile/kraab2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/kraab1.jpg");
+    })
+  }
+);
 $("#mary").hover(
   function() {
     $(this).attr("src","img/profile/mary2.jpg");
@@ -138,6 +170,14 @@ $("#sheri").hover(
     $(this).attr("src","img/profile/sheri2.jpg");
     $(this).mouseleave(function() {
       $(this).attr("src","img/profile/sheri1.jpg");
+    })
+  }
+);
+$("#sue").hover(
+  function() {
+    $(this).attr("src","img/profile/sue2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/sue1.jpg");
     })
   }
 );
