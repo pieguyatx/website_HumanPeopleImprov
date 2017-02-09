@@ -8,11 +8,11 @@
   <meta name="description" content="Human People is a big, guitar-backed musical improv theater comedy troupe from Austin, TX.">
   <meta property="og:site_name" content="Human People Improv"/>
   <meta property="og:title" content="Human People | Entertaining your cat since 2016"/>
-  <meta property="og:image" content="http://www.humanpeopleimprov.com/img/Elegant-Cat-Silhouette-800px.png"/>
+  <meta property="og:image" content="http://www.humanpeopleimprov.com/img/humanpeople1_FBscrape.png"/>
   <meta property="og:url" content="http://www.humanpeopleimprov.com"/>
   <meta property="og:description" content="Come watch Human People, a guitar-backed musical improv theater comedy troupe from Austin, TX!"/>
   <meta property="og:type" content="website"/>
-  <meta property="fb:app_id" content="n/a"/>
+  <meta property="fb:app_id" content="1681403505485824"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:site" content="www.humanpeopleimprov.com"/>
   <meta name="twitter:title" content="Human People | Entertaining your cat since 2016" />
@@ -28,14 +28,24 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- Facebook JS SDK-->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=227126297744003";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1681403505485824',
+        xfbml      : true,
+        version    : 'v2.8'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
