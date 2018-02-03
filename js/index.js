@@ -135,9 +135,9 @@ $("#greg").hover(
 );
 $("#kay").hover(
   function() {
-    $(this).attr("src","http://placekitten.com/g/401/401/");
+    $(this).attr("src","img/profile/kay2.jpg");
     $(this).mouseleave(function() {
-      $(this).attr("src","http://placekitten.com/g/400/400/");
+      $(this).attr("src","img/profile/kay1.jpg");
     })
   }
 );
@@ -162,6 +162,14 @@ $("#pius").hover(
     $(this).attr("src","img/profile/pius2.jpg");
     $(this).mouseleave(function() {
       $(this).attr("src","img/profile/pius1.jpg");
+    })
+  }
+);
+$("#rich").hover(
+  function() {
+    $(this).attr("src","img/profile/rich2.jpg");
+    $(this).mouseleave(function() {
+      $(this).attr("src","img/profile/rich1.jpg");
     })
   }
 );
