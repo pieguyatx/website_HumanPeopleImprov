@@ -171,10 +171,13 @@ div p {
   div p {
     font-size: 1.1em;
   }
+  #about{
+    position: relative;
+  }
   #about img{
     max-width: 180%;
     position: relative;
-    left: -40%;
+    margin: -15% -40% -15% -40%;
   }
   #contact p {
     padding-bottom: 0px;
