@@ -76,6 +76,38 @@ div #siteName{
 #about {
   background-color: #60006a;
   overflow: hidden;
+  position: relative;
+}
+#about button{
+  position: absolute;
+  top: 45%;
+  font-size: 4em;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-weight: bolder;
+  z-index: 1;
+  padding: 0.1em 0.2em 0.1em 0.2em;
+  transition: all 0.3s;
+}
+#about button.slide-left{
+  left: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#about button.slide-right{
+  right: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#about button:hover, #about button:focus{
+  color: #ffcc00;
+  padding: 0.1em 0.4em 0.1em 0.4em;
+  background: rgba(0,0,0,0.8);
+  border: none;
+}
+#about button:active{
+  color: #02b7ca;
 }
 #aboutCaption {
   background-color: #60006a;
@@ -178,6 +210,10 @@ div p {
     max-width: 180%;
     position: relative;
     margin: -15% -40% -15% -40%;
+  }
+  #about button{
+    top: 35%;
+    font-size: 2.5em;
   }
   #contact p {
     padding-bottom: 0px;
@@ -311,6 +347,44 @@ div p {
   width: 291px;
   z-index: 1;
   opacity: 0;
+}
+
+/* Animations */
+.pulse{
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+  -webkit-animation-duration: 1.8s;
+	animation-duration: 1.8s;
+  -webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.98);
+		opacity: 0.7;
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(0.98);
+		opacity: 0.7;
+	}
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.7;
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;
+	}
 }
 
 /* https://lipis.github.io/bootstrap-social/
